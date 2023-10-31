@@ -7,14 +7,14 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="dropboxdrivefs",
-    version="1.3.1",
+    name="unstract-dropboxdrivefs",
+    version="1.0.0",
     packages=["dropboxdrivefs"],
     install_requires=["fsspec", "requests", "dropbox"],
-    author="Marine Chaput",
-    author_email="marine.chaput@hotmail.fr",
-    url = "https://github.com/fsspec/dropboxdrivefs",
-    description="Dropbox implementation for fsspec module",
+    author="Zipstack Inc",
+    author_email="devsupport@zipstack.com",
+    url = "https://github.com/Zipstack/dropboxdrivefs/",
+    description="Dropbox implementation by Unstract for fsspec module",
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[
@@ -27,7 +27,6 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
-
     ],
     python_requires=">=3.5",
     license="BSD",
